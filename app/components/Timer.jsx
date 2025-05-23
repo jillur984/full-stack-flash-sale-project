@@ -6,7 +6,7 @@ const Timer = () => {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
 
-  // Set your target deadline (example: 3 hours from now)
+  // Set your target deadline (example: 5 hours from now)
   const deadline = Date.now() + 5 * 60 * 60 * 1000; // 3 hours in ms
 
   const getTime = () => {
